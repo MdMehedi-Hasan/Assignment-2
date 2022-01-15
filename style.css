@@ -203,6 +203,13 @@ input , .subscribe button{
     flex-direction: column;
   }  
 }
+@media screen and (max-width:688px) {
+    .flexible-division{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    }
+}
 @media screen and (max-width:688px){
     .left-aligned-text{
      width: 100%;
@@ -303,6 +310,13 @@ flex-direction: column;
         margin-top: 190px;
     }
     
+}
+@media screen and (max-width:689px) and (max-width:991){
+    .flexible-division{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    }
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .products-parent {
