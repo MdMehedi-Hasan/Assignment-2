@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-/* utilities */
+/* ============================================================================================================
+                                                    utilities 
+===============================================================================================================
+ */
 body{
     margin:0;
     background: #e2e2e273;
     font-family: 'Poppins', sans-serif;
 }
 .left-header-text h2{
-margin-left: 95px;
+    margin-left: 95px;
 }
 
-/*                                  Header                          */
+/* ============================================================================================================
+                                                    Header complete
+===============================================================================================================
+ */
 .top-area{
     width: 99%;
     height:500px;
@@ -45,7 +51,7 @@ margin-left: 95px;
     100%{color:rgb(66, 66, 66)}
 }
 .left-aligned-text .top-button{
-text-decoration: none;
+    text-decoration: none;
 }
 .top-button button{
     background-color: #313131;
@@ -74,8 +80,9 @@ text-decoration: none;
     to{transform: rotate(360deg);}
 }
 
-/*
-                                                Top Section Complete 
+/* ============================================================================================================
+                                                    Top section complete 
+===============================================================================================================
  */
 .products{
     padding-bottom: 50px;
@@ -135,9 +142,10 @@ text-decoration: none;
     text-decoration: none;
     color:black;
 }
-/* 
-                                                Flexible Division Complete
-*/
+/* ============================================================================================================
+                                                    product division complete 
+===============================================================================================================
+ */
 .bonus{
     display: flex;
     align-items: center;
@@ -160,9 +168,10 @@ input , .subscribe button{
     margin-top: 25px;
 }
 
-/* 
-                        last paragraph complete
-*/
+/* ============================================================================================================
+                                                    Bonus section complete 
+===============================================================================================================
+ */
 
  footer{
      width: 100%;
@@ -180,17 +189,18 @@ input , .subscribe button{
     margin-top: -7px;
  }
 
- /* 
-                Responsiveness Start
+/* ============================================================================================================
+                                                    Footer Complete
+===============================================================================================================
  */
  @media screen and (max-width:688px) {
-     .left-header-text h2{
-         margin-left: 80px;
+    .left-header-text h2{
+    margin-left: 80px;
      }
  }
  @media screen and (max-width:688px) {
     .left-aligned-text h1{
-        font-size: 2em;
+    font-size: 2em;
     }
  }
 @media screen and (max-width:688px) {
@@ -249,65 +259,65 @@ input , .subscribe button{
     }
 }
 @media screen and (max-width:688px) {
-.bonus{
-height: 400px;
-width: 100%;
-display: flex;
-flex-direction: column;
+    .bonus{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }    
 @media screen and (max-width:688px) {
     iframe{
-        width: 100%;
-        height: 100%;
+    width: 100%;
+    height: 100%;
     }
     
 }
 }
 @media screen and (max-width:688px) {
     .map{
-        width: 100%;
-        height:200px;
+    width: 100%;
+    height:200px;
     }
 }
 @media screen and (max-width:688px) {
     .subscribe{
-        width: 100%;
-        height: 200px;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 100px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
     }
 }
 
 @media screen and (max-width:688px) {
     footer{
-        width:100%;
-        height:300px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    width:100%;
+    height:300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     }
     
 }
-/* 
-                                Mobile Device responsive complete
-*/
+/* ============================================================================================================
+                                                    mobile responsive done 
+===============================================================================================================
+ */
 @media screen and (min-width:689px) and (max-width:991px) {
     .left-header-text h2{
-        margin-left: 65px;
+    margin-left: 65px;
     }
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .left-aligned-text {
-        width:695px;
+    width:695px;
     }
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .right-aligned-image{
-        /* margin-right: -55px; */
-        width: 300px;
-        margin-top: 190px;
+    width: 300px;
+    margin-top: 190px;
     }
     
 }
@@ -320,10 +330,10 @@ flex-direction: column;
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .products-parent {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 45px;
-        justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 45px;
+    justify-items: center;
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .bonus{
@@ -332,135 +342,124 @@ flex-direction: column;
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .map{
-        width: 90%;
+    width: 90%;
     }
 }
 @media screen and (min-width:689px) and (max-width:991px){
     iframe{
-        width: 100%;
+    width: 100%;
     }
     
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .subscribe{
-        width: 420px;
-        text-align: center;
-        margin-top: 50px;
+    width: 420px;
+    text-align: center;
+    margin-top: 50px;
     }
     
 }}
-/* 
-                                        tablet responsive Complete
-*/
+/* ============================================================================================================
+                                                    tablet responsive done 
+===============================================================================================================
+ */
 @media screen and (min-width:992px) and (max-width:1312px){
     .left-header-text h2{
-        margin-left: 95px;
+    margin-left: 95px;
         }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .top-area{
-        width: 99%;
-        height:500px;
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
+    width: 99%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .wrapper-for-alignment{
-        width:85%;
-        height: 500px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    width:85%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .left-aligned-text{
-        width:480px;
-        height: 300px;
+    width:480px;
+    height: 300px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .left-aligned-text h1{
-        font-size:3em ;
-        color: black;
-        font-weight: 700;
-        margin-top: 10px;
-        animation-name: color-changing;
-        animation:color-changing 10s;
-        font-family: 'Times New Roman', Times, serif;
+    font-size:3em ;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px;
+    animation-name: color-changing;
+    animation:color-changing 10s;
+    font-family: 'Times New Roman', Times, serif;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .right-aligned-image{
-        width:400px;
-        height: 360px;
-    }
-}
-@media screen and (min-width:992px) and (max-width:1312px){
-    .right-aligned-image img{
-        width: 100%;
-        animation-name: rotation;
-        animation-duration: 10s;
+    width:400px;
+    height: 360px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .products{
-        padding-bottom: 50px;
+    padding-bottom: 50px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .flexible-division{
-        width: 100%;
-         margin: auto;
-         margin-top: 30px;
+     width: 100%;
+     margin: auto;
+     margin-top: 30px;
      }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .collection-header-text{
-        text-align: center;
-        font-size: 30px;
+    text-align: center;
+    font-size: 30px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .products-parent{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        row-gap: 45px;
-        justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 45px;
+    justify-items: center;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .products-list{
-        width: 300px;
-        height:460px;
-        padding: 15px;
-        background: #ffffffeb;
-        border-radius: 10px;
+    width: 300px;
+    height:460px;
+    padding: 15px;
+    background: #ffffffeb;
+    border-radius: 10px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .products-list h4{
-        font-size: 20px;
-        margin:10px 0px;
+    font-size: 20px;
+    margin:10px 0px;
     }
 }
 @media screen and (min-width:992px) and (max-width:1312px){
     .products-list h5{
-        font-size: 22px;
-        font-weight: 200;
-        margin: 11px 0px;
+    font-size: 22px;
+    font-weight: 200;
+    margin: 11px 0px;
     }
 }
-/* /* @media screen and (min-width:992px) and (max-width:1312px){
-    
-} */
 @media screen and (min-width:1313px){
     body{
-        max-width: 1312px;
+    max-width: 1312px;
+    margin: auto;
     }
 }
-/* @media screen and (min-width:992px) and (max-width:1312px){ 
-    
-} */
