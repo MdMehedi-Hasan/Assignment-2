@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* utilities */
+body{
+    margin:0;
+    background: #e2e2e273;
+    font-family: 'Poppins', sans-serif;
+}
+.left-header-text h2{
+margin-left: 95px;
+}
+.top-area{
+    width: 99%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.wrapper-for-alignment{
+    width:85%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-aligned-text{
+    width:480px;
+    height: 300px;
+}
+.left-aligned-text h1{
+    font-size:52px ;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px;
+    animation-name: color-changing;
+    animation:color-changing 10s;
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes color-changing{
+    0%{color:black ;}
+    30%{color:rgb(112, 231, 0)}
+    50%{color:darkgreen;}
+    70%{color:rgb(0, 238, 167);}
+    100%{color:rgb(66, 66, 66)}
+}
+.left-aligned-text .top-button{
+text-decoration: none;
+}
+.top-button button{
+    background-color: #313131;
+    border-radius: 15px;
+    font-size: 15px;
+    color: cornsilk;
+    width: 140px;
+    height: 30px;
+    margin-top: 15px;
+    border-color: #313131;
+}
+.top-button i{
+    margin-left: 10px;
+}
+.right-aligned-image{
+    width:400px;
+    height: 360px;
+}
+.right-aligned-image img{
+    width: 100%;
+    animation-name: rotation;
+    animation-duration: 10s;
+}
+@keyframes rotation{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+/*
+                                                Top Section Complete 
+ */
+.products{
+    padding-bottom: 50px;
+}
+ .flexible-division{
+    width: 90%;
+     margin: auto;
+     margin-top: 30px;
+ }
+.collection-header-text{
+    text-align: center;
+    font-size: 30px;
+}
+.products-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 45px;
+    justify-items: center;
+}
+.products-list{
+    width: 300px;
+    height:460px;
+    padding: 15px;
+    background: #ffffffeb;
+    border-radius: 10px;
+}
+.products-list h4{
+    font-size: 20px;
+    margin:10px 0px;
+}
+.products-list h5{
+    font-size: 22px;
+    font-weight: 200;
+    margin: 11px 0px;
+}
+.ratings{
+    font-size: 12px;
+    margin-top: 14px;
+    margin-bottom: -10px;
+    color: goldenrod;
+}
+.ratings span{
+    color:black;
+}
+.more-option{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+}
+.more-option i{
+    margin-left: 7px;
+}
+.more-option a{
+    text-decoration: none;
+    color:black;
+}
+/* 
+                                                Flexible Division Complete
+*/
+.bonus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.subscribe h2{
+    font-size: 30px;
+}
+input , .subscribe button{
+    width: 300px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 18px;
+    border: 1px solid;
+}
+.subscribe button{
+    width: 320px;
+    margin-top: 25px;
+}
+
+/* 
+                        last paragraph complete
+*/
+
+ footer{
+     width: 100%;
+     height: 165px;
+     background-color: rgb(26, 32, 32);
+     text-align: center;
+     color:cornsilk;
+ }
+ footer h3{
+    margin-bottom: -7px;
+    padding-top: 25px;
+    font-size: 23px;
+ }
+ .last-paragraph{
+    margin-top: -7px;
+ }
