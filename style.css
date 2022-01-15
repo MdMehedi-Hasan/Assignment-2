@@ -8,6 +8,8 @@ body{
 .left-header-text h2{
 margin-left: 95px;
 }
+
+/*                                  Header                          */
 .top-area{
     width: 99%;
     height:500px;
@@ -27,7 +29,7 @@ margin-left: 95px;
     height: 300px;
 }
 .left-aligned-text h1{
-    font-size:52px ;
+    font-size:3em ;
     color: black;
     font-weight: 700;
     margin-top: 10px;
@@ -177,3 +179,147 @@ input , .subscribe button{
  .last-paragraph{
     margin-top: -7px;
  }
+
+ /* 
+                Responsiveness Start
+ */
+ @media screen and (max-width:688px) {
+     .left-header-text h2{
+         margin-left: 80px;
+     }
+ }
+ @media screen and (max-width:688px) {
+    .left-aligned-text h1{
+        font-size: 2em;
+    }
+ }
+@media screen and (max-width:688px) {
+  .wrapper-for-alignment{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }  
+}
+@media screen and (max-width:688px){
+    .left-aligned-text{
+     width: 100%;
+    height: 250px;
+    text-align: center;
+    }
+}
+@media screen and (max-width:688px) {
+    .right-aligned-image{
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    }
+    
+}
+@media screen and (max-width:688px) {
+    .products{
+        margin-top: 230px;
+    }
+}
+@media screen and (max-width:688px) {
+    .products-parent{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    justify-items: center;
+    }
+    
+}
+@media screen and (max-width:688px) {
+    .more-option{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -45px;
+    }
+}
+@media screen and (max-width:688px) {
+.bonus{
+height: 400px;
+width: 100%;
+display: flex;
+flex-direction: column;
+}    
+@media screen and (max-width:688px) {
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+}
+@media screen and (max-width:688px) {
+    .map{
+        width: 100%;
+        height:200px;
+    }
+}
+@media screen and (max-width:688px) {
+    .subscribe{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:688px) {
+    footer{
+        width:100%;
+        height:300px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+/* 
+                                Mobile Device responsive complete
+*/
+@media screen and (min-width:689px) and (max-width:991px) {
+    .left-header-text h2{
+        margin-left: 65px;
+    }
+}
+@media screen and (min-width:689px) and (max-width:991px) {
+    .left-aligned-text {
+        width:695px;
+    }
+}
+@media screen and (min-width:689px) and (max-width:991px) {
+    .right-aligned-image{
+        margin-right: -55px;
+    }
+    
+}
+@media screen and (min-width:689px) and (max-width:991px) {
+    .products-parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 45px;
+        justify-items: center;
+}
+@media screen and (min-width:689px) and (max-width:991px){
+    iframe{
+        width: 400px;
+        margin-left: 30px;
+    }
+    
+}
+@media screen and (min-width:689px) and (max-width:991px) {
+    .subscribe{
+        width: 400px;
+        text-align: center;
+    }
+    
+}}
