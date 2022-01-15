@@ -309,17 +309,27 @@ flex-direction: column;
         row-gap: 45px;
         justify-items: center;
 }
+@media screen and (min-width:689px) and (max-width:991px) {
+    .bonus{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:689px) and (max-width:991px) {
+    .map{
+        width: 90%;
+    }
+}
 @media screen and (min-width:689px) and (max-width:991px){
     iframe{
-        width: 400px;
-        margin-left: 30px;
+        width: 100%;
     }
     
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .subscribe{
-        width: 400px;
+        width: 420px;
         text-align: center;
+        margin-top: 50px;
     }
     
 }}
