@@ -298,7 +298,9 @@ flex-direction: column;
 }
 @media screen and (min-width:689px) and (max-width:991px) {
     .right-aligned-image{
-        margin-right: -55px;
+        /* margin-right: -55px; */
+        width: 300px;
+        margin-top: 190px;
     }
     
 }
